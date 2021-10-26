@@ -1,4 +1,4 @@
-pacman :fakeroot gcc binutils automake make autoconf gti github-cli zsh alacarte variety firefox python-virtualenvwrapper
+pacman :fakeroot gcc binutils automake make autoconf git github-cli zsh alacarte variety firefox python-virtualenvwrapper pacman-contrib ntfs-3g 
 
 
 
@@ -6,7 +6,8 @@ to be removed : gnome-books gnome-clocks gnome-maps gnome-weather gnome-photos e
 
 
 
-aur packages : pamac-aur stacer authy wine chrome-gnome-shell vlc
+
+aur packages : pamac-aur stacer authy chrome-gnome-shell vlc google-chrome ferdi omnidb-app postgresql gedit-plugins neofetch gnome-tweaks 
 
 
 
@@ -43,3 +44,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 ########################### Nautilus Plugins
 nautilus-terminal nautilus-hide nautilus-image-converter imdb-thumbnailer nautilus-pdf-tools nautilus-metadata-editor code-nautilus-git  nautilus-gnome-disks
+
+#############Postgresql###########
+sudo mkdir /var/lib/postgres/data
+sudo chown -c -R postgres:postgres /var/lib/postgres
+sudo -iu postgres
+initdb -D /var/lib/postgres/data
+
+
+
