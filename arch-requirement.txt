@@ -7,8 +7,8 @@ to be removed : gnome-books gnome-clocks gnome-maps gnome-weather gnome-photos e
 
 
 
-aur packages : pamac-aur stacer authy chrome-gnome-shell vlc google-chrome ferdi omnidb-app postgresql gedit-plugins neofetch gnome-tweaks 
-
+aur packages : pamac stacer authy chrome-gnome-shell vlc google-chrome ferdi omnidb-app postgresql gedit-plugins neofetch gnome-tweaks android-tools freedownloadmanager anydesk tor-browser gparted virt-manager sqlitebrowser gdm-tools xampp tomcat9 avahi
+ 
 
 
 Wine Installaltion
@@ -50,6 +50,5 @@ sudo mkdir /var/lib/postgres/data
 sudo chown -c -R postgres:postgres /var/lib/postgres
 sudo -iu postgres
 initdb -D /var/lib/postgres/data
-
 
 
