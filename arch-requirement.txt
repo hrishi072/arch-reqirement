@@ -2,12 +2,12 @@ pacman :fakeroot gcc binutils automake make autoconf git github-cli zsh alacarte
 
 
 
-to be removed : gnome-books gnome-clocks gnome-maps gnome-weather gnome-photos epiphany gnome-calendar gnome-contacts totem  gnome-music  gnome-software 
+to be removed : gnome-books gnome-clocks gnome-maps gnome-weather gnome-photos epiphany gnome-calendar gnome-contacts totem  gnome-music  gnome-software simple-scan gnome-font-viewer gnome-characters gnome-firmware
 
 
 
 
-aur packages : pamac stacer authy chrome-gnome-shell vlc google-chrome ferdi omnidb-app postgresql gedit-plugins neofetch gnome-tweaks android-tools freedownloadmanager anydesk tor-browser gparted virt-manager sqlitebrowser gdm-tools xampp tomcat9 avahi
+aur packages : pamac stacer authy chrome-gnome-shell vlc google-chrome ferdi omnidb-app postgresql gedit-plugins neofetch gnome-tweaks android-tools freedownloadmanager anydesk tor-browser gparted virt-manager sqlitebrowser gdm-tools xampp tomcat9 avahi discord heroku composer php jdk onlyoffice
  
 
 
@@ -35,8 +35,7 @@ sudo pacman -S wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib3
 ############zsh#########
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-
+git clone --recursive https://github.com/gko/ssh-connect
 
 
 ##########################3 Gedit Plugins 
